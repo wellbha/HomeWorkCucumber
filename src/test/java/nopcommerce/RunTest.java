@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = ".",tags = "@books, @apparel, @computers, @digitaldownload,  @electronics, @giftcards,   @jewelry")
+@CucumberOptions(features = ".",tags = "@scenriooutline")
 
 public class RunTest {
 

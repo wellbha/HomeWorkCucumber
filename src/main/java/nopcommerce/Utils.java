@@ -241,7 +241,9 @@ public class Utils extends BasePage {
         String strDate = dateFormat.format(date);
         return strDate;
     }
-
+    public static void assertCurrentUrl(String url){
+        Assert.assertTrue(driver.getCurrentUrl().equals(url));
+    }
 
 
 
